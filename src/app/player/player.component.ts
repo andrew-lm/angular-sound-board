@@ -1,5 +1,5 @@
 import { Component, OnInit, AfterViewInit, ElementRef, OnDestroy } from '@angular/core';
-import { Input, Output, ViewChild } from '@angular/core';
+import { Input, Output } from '@angular/core';
 
 import { AUDIO_GROUPS, AudioGroup } from './audio';
 import { SoundService, AudioItem } from '../sound.service';

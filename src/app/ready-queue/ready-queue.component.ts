@@ -2,8 +2,9 @@ import { Component, OnInit, Input, OnDestroy, AfterViewInit } from '@angular/cor
 import { AudioEntry, AUDIO_ENTRIES } from '../audio';
 import { LocalStorageService } from '../local-storage.service';
 import { SoundService, AudioItem } from '../sound.service';
-import { MatDialog, MatSnackBarRef } from '@angular/material';
-import { MatSnackBar, MatSnackBarHorizontalPosition, MatSnackBarVerticalPosition } from '@angular/material';
+import { MatDialog } from '@angular/material/dialog';
+import { MatSnackBarRef } from '@angular/material/snack-bar';
+import { MatSnackBar, MatSnackBarHorizontalPosition, MatSnackBarVerticalPosition } from '@angular/material/snack-bar';
 import { AudioEntryOption, EditReadyQueueDialogData, EditReadyQueueComponent } from '../edit-ready-queue/edit-ready-queue.component';
 import { Subscription } from 'rxjs';
 import { SnackBarAudioComponent } from './snack-bar-audio.component';

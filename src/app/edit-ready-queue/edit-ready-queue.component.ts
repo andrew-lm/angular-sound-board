@@ -1,6 +1,7 @@
 import { Component, OnInit, ViewChild, Inject } from '@angular/core';
 
-import { MatDialogRef, MAT_DIALOG_DATA, MatSelectionList } from '@angular/material';
+import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
+import { MatSelectionList } from '@angular/material/list';
 import { AudioEntry } from '../audio';
 
 
